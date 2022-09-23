@@ -11,7 +11,6 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Avatar } from "@mui/material";
 import "./Header.css";
 
-
 function Header() {
   return (
     <div className="container">
@@ -19,6 +18,7 @@ function Header() {
         <MenuIcon />
         <Link to="/">
           <YouTubeIcon className="youtube-logo" />
+          <h2>FTTT</h2>
         </Link>
       </div>
       <div className="search-container">
