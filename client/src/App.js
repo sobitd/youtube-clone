@@ -9,6 +9,7 @@ function App() {
       <Header />
       <div className="mainpage">
         <SideBar />
+        <RecommendedVideos />
       </div>
     </div>
   );
