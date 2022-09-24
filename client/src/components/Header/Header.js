@@ -1,7 +1,6 @@
 // Remains visible on all routes
 
 import React from "react";
-import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import VideoCallIcon from "@mui/icons-material/VideoCall";
@@ -16,10 +15,8 @@ function Header() {
     <div className="container">
       <div className="menu-container">
         <MenuIcon />
-        <Link to="/">
           <YouTubeIcon className="youtube-logo" />
           <h2>FTTT</h2>
-        </Link>
       </div>
       <div className="search-container">
         <input type="text" />
